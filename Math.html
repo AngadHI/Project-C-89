@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Questions</title>
+	<title>Math quiz!</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -19,25 +19,22 @@
 		<h2 style="color: white;">Get it right!</h2>
 		<h3 id="MathQuestion"></h3>
 		<h3 id="MathAnswer"></h3>
-
 		<div id="Output" class="col-lg-6"></div>
-
-
 		<br>
 		<br>
-
-
-
-		<label>Question: <b style="color: red">50 - 33</b></label>
-
-
-
+		<label style="color: red">Number 1 </label>
 		<br>
-
-<input type="text" class="Form-Control" id="Answer" placeholder="Answer">
-<br>
-
-
+		<br>
+		<input type="number" class="Form-Control" id="Number1" placeholder="Number 1">
+		<br>
+		<br>
+		<label style="color: red">Number 2 </label>
+	<br>
+	<br>
+		<input type="number" class="Form-Control" id="Number2" placeholder="Number 2">
+		<br>
+<button id="SendButton" onclick=Send(); class="btn-btn success">Send</button>
+	<br>
 	</center>
 
 </div>
